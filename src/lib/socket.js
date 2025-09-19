@@ -11,6 +11,7 @@ const io = new Server(server, {
       "http://localhost:5173",
       "https://chatify-woad.vercel.app"
     ],
+    credentials: true, // <-- add this line
   },
 });
 
